@@ -122,8 +122,7 @@ body {
 
 
 .overlay.Characters {
-  grid-template-columns: repeat(4, auto);
-  row-gap: 2%;
+  grid-template-columns: repeat(4, 23%);
 }
 
 .Environment img,
