@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://unpkg.com/konva@9.2.3/konva.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <title>Stage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <div id="container"></div>
+    <div class="box">
+        <select id="clip" name="item">
+        <option value="" selected>اختر أجزاء المشهد</option>
+        <option value="Environment">البيئة</option>
+        <option value="Elements">العناصر</option>
+        <option value="Characters">الشخصيات</option>
+      </select>
+    </div>
+    <button id="save">حفظ المشهد</button>
+
+    <div class="overlay">
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
