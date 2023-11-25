@@ -134,7 +134,7 @@ border: 10px solid #fff;
 }
 
 .overlay.Environment {
-  /* gap: 5%; */
+  gap: 5%;
   grid-template-columns: repeat(3, auto);
   grid-template-rows: repeat(2, auto);
 }
@@ -144,6 +144,8 @@ border: 10px solid #fff;
   /* grid-template-rows: repeat(2,50%); */
   overflow: scroll;
   align-content: start;
+    gap:0;
+
 }
 
 .overlay.Characters {
